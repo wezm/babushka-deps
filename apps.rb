@@ -1,5 +1,5 @@
 dep 'Google Chrome.app' do
-  source 'http://dl.google.com/chrome/mac/dev/GoogleChrome.dmg'
+  source 'https://dl-ssl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg'
 end
 
 dep 'Firefox.app' do
