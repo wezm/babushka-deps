@@ -64,3 +64,7 @@ end
 #   source ''
 # end
 
+dep 'MacRuby.installer' do
+  source 'http://www.macruby.org/files/MacRuby%200.9.zip'
+  provides 'macruby', 'macirb'
+end

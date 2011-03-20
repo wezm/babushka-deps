@@ -5,10 +5,15 @@ dep 'macbook-pro' do
   requires 'oh-my-zsh.git'
   requires 'rvm'
   requires 'nvm'
-
+  requires 'MacRuby.installer'
+  
   # Database
   requires 'mysql starts via launchd'
   requires 'sphinx.managed'
+
+  # Libraries
+  requires 'geoip.managed'
+  requires 'imagemagick.managed'
 
   # Installers
   requires 'Growl.installer'
@@ -37,6 +42,7 @@ dep 'macbook-pro' do
 
   # Utilities
   requires 'AppZapper.app'
+  requires 'pygments'
 
   # Projects
   requires 'lark'
