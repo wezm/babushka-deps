@@ -76,3 +76,7 @@ end
 dep 'Skype.app' do
   source 'http://download.skype.com/macosx/Skype_5.0.0.7994.dmg'
 end
+
+dep 'Jumpcut.app' do
+  source 'http://internode.dl.sourceforge.net/project/jumpcut/jumpcut/0.63/Jumpcut_0.63.tgz'
+end
