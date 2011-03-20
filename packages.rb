@@ -9,3 +9,7 @@ end
 dep 'imagemagick.managed' do
   provides 'Magick-config'
 end
+
+dep 'freeimage.managed' do
+  provides []
+end

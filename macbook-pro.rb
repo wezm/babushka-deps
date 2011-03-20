@@ -15,6 +15,7 @@ dep 'macbook-pro' do
   # Libraries
   requires 'geoip.managed'
   requires 'imagemagick.managed'
+  requires 'freeimage.managed'
 
   # Installers
   requires 'Growl.installer'
