@@ -10,6 +10,7 @@ dep 'macbook-pro' do
   # Database
   requires 'mysql starts via launchd'
   requires 'sphinx.managed'
+  requires 'Sequel Pro.app'
 
   # Libraries
   requires 'geoip.managed'
