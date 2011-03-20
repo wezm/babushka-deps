@@ -29,6 +29,7 @@ dep 'macbook-pro' do
   requires 'Dropbox.app'
   requires 'Download Queue.app'
   requires 'Reeder.app'
+  requires 'Skype.app'
 
   # Text & Notes
   requires 'Sublime Text 2.app'

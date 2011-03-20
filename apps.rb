@@ -72,3 +72,7 @@ end
 dep 'Sequel Pro.app' do
   source 'http://sequel-pro.googlecode.com/files/sequel-pro-0.9.8.1.dmg'
 end
+
+dep 'Skype.app' do
+  source 'http://download.skype.com/macosx/Skype_5.0.0.7994.dmg'
+end
