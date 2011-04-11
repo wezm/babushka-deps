@@ -13,3 +13,7 @@ end
 dep 'freeimage.managed' do
   provides []
 end
+
+dep 'mongoose.managed' do
+  provides 'mongoose'
+end

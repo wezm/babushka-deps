@@ -48,6 +48,7 @@ dep 'macbook-pro' do
   requires 'AppZapper.app'
   requires 'Jumpcut.app'
   requires 'pygments'
+  requires 'mongoose.managed'
 
   # Projects
   requires 'lark'
