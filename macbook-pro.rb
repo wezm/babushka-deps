@@ -1,5 +1,6 @@
 dep 'macbook-pro' do
   requires 'medium font smoothing'
+  requires 'spaces animation disabled'
 
   # Shells & Interpreters
   requires 'oh-my-zsh.git'
