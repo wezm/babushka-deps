@@ -61,11 +61,12 @@ dep 'AppZapper.app' do
 end
 
 # dep 'Baseline.app' do
+#   website has gone away
 #   source ''
 # end
 
 dep 'MacRuby.installer' do
-  source 'http://www.macruby.org/files/MacRuby%200.9.zip'
+  source 'http://www.macruby.org/files/MacRuby%200.10.zip'
   provides 'macruby', 'macirb'
 end
 
