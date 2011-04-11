@@ -34,6 +34,10 @@ dep 'macbook-pro' do
   requires 'Download Queue.app'
   requires 'Reeder.app'
   requires 'Skype.app'
+  requires 'CoRD.app'
+  requires 'Fake.app'
+  requires 'ForkLift.app'
+  requires 'GarageSale.app'
 
   # Text & Notes
   requires 'Sublime Text 2.app'
@@ -55,4 +59,3 @@ dep 'macbook-pro' do
   # Projects
   requires 'lark'
 end
-
