@@ -75,9 +75,25 @@ dep 'Sequel Pro.app' do
 end
 
 dep 'Skype.app' do
-  source 'http://download.skype.com/macosx/Skype_5.0.0.7994.dmg'
+  source 'http://download.skype.com/macosx/Skype_2.8.0.866.dmg'
 end
 
 dep 'Jumpcut.app' do
   source 'http://internode.dl.sourceforge.net/project/jumpcut/jumpcut/0.63/Jumpcut_0.63.tgz'
+end
+
+dep 'CoRD.app' do
+  source 'http://internode.dl.sourceforge.net/project/cord/cord/0.5.4/CoRD_0.5.4.zip'
+end
+
+dep 'Fake.app' do
+  source 'http://fakeapp.com/dist/Fake_1.7.1.zip'
+end
+
+dep 'GarageSale.app' do
+  source 'http://www.iwascoding.de/downloads/GarageSale_5.5.dmg'
+end
+
+dep 'ForkLift.app' do
+  source 'http://download.binarynights.com/ForkLift2.zip'
 end
