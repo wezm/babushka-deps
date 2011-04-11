@@ -14,3 +14,7 @@ dep 'mvim in path' do
     end
   }
 end
+
+dep 'ack.managed' do
+  provides 'ack'
+end

@@ -7,7 +7,9 @@ dep 'macbook-pro' do
   requires 'rvm'
   requires 'nvm'
   requires 'MacRuby.installer'
-  
+  # requires 'mvim in path'
+  requires 'ack.managed'
+
   # Database
   requires 'mysql starts via launchd'
   requires 'sphinx.managed'
