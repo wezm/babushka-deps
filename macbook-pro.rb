@@ -51,6 +51,7 @@ dep 'macbook-pro' do
 
   # Graphics & Design
   requires 'Pixelmator.app'
+  requires 'xScope.app'
 
   # Utilities
   requires 'AppZapper.app'

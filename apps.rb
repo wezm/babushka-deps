@@ -105,3 +105,7 @@ end
 dep 'FileShuttle.app' do
   source 'http://getfileshuttle.com/releases/fileshuttle.zip'
 end
+
+dep 'xScope.app' do
+  source 'http://iconfactory.com/assets/software/xscope/xScope_222.zip'
+end
