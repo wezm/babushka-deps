@@ -97,3 +97,7 @@ end
 dep 'ForkLift.app' do
   source 'http://download.binarynights.com/ForkLift2.zip'
 end
+
+dep 'TextMate.app' do
+  source 'http://download.macromates.com/TextMate_1.5.10.zip'
+end

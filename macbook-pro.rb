@@ -43,6 +43,7 @@ dep 'macbook-pro' do
   requires 'Sublime Text 2.app'
   requires 'Notational Velocity.app'
   # requires 'MacVim.app'
+  requires 'TextMate.app'
 
   # Dev Tools
   requires 'GitX.app'
