@@ -17,3 +17,7 @@ end
 dep 'mongoose.managed' do
   provides 'mongoose'
 end
+
+dep 'gnupg.managed' do
+  provides 'gpg'
+end
