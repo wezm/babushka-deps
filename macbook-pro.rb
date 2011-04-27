@@ -38,6 +38,7 @@ dep 'macbook-pro' do
   requires 'Fake.app'
   requires 'ForkLift.app'
   requires 'GarageSale.app'
+  requires 'FileShuttle.app'
 
   # Text & Notes
   requires 'Sublime Text 2.app'
