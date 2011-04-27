@@ -9,6 +9,8 @@ dep 'macbook-pro' do
   requires 'MacRuby.installer'
   # requires 'mvim in path'
   requires 'ack.managed'
+  requires 'lua.managed'
+  requires 'luarocks.managed'
 
   # Database
   requires 'mysql starts via launchd'
