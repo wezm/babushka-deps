@@ -11,6 +11,7 @@ dep 'macbook-pro' do
   requires 'ack.managed'
   requires 'lua.managed'
   requires 'luarocks.managed'
+  requires 'NuKit.installer'
 
   # Database
   requires 'mysql starts via launchd'

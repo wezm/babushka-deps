@@ -21,3 +21,8 @@ end
 dep 'gnupg.managed' do
   provides 'gpg'
 end
+
+dep 'NuKit.installer' do
+  source "http://programming.nu/releases/NuKit-1.0.0.dmg"
+  provides 'nush'
+end
