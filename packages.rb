@@ -26,3 +26,7 @@ dep 'NuKit.installer' do
   source "http://programming.nu/releases/NuKit-1.0.0.dmg"
   provides 'nush'
 end
+
+dep 'ragel.managed' do
+  provides 'ragel'
+end

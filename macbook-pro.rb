@@ -62,6 +62,7 @@ dep 'macbook-pro' do
   requires 'pygments'
   requires 'mongoose.managed'
   requires 'gnupg.managed'
+  requires 'ragel.managed'
 
   # Projects
   requires 'lark'
