@@ -62,8 +62,11 @@ dep 'macbook-pro' do
   requires 'pygments'
   requires 'mongoose.managed'
   requires 'gnupg.managed'
+  requires 'pdftohtml.managed'
   requires 'ragel.managed'
 
   # Projects
   requires 'lark'
+  requires 'timetable-tools.git'
+  requires 'VicTrains.git'
 end

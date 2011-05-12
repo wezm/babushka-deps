@@ -27,6 +27,10 @@ dep 'NuKit.installer' do
   provides 'nush'
 end
 
+dep 'pdftohtml.managed' do
+	provides 'pdftohtml'
+end
+
 dep 'ragel.managed' do
   provides 'ragel'
 end
