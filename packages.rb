@@ -34,3 +34,7 @@ end
 dep 'ragel.managed' do
   provides 'ragel'
 end
+
+dep 'mongodb.managed' do
+  provides 'mongod'
+end
