@@ -14,9 +14,7 @@ dep 'freeimage.managed' do
   provides []
 end
 
-dep 'mongoose.managed' do
-  provides 'mongoose'
-end
+dep 'mongoose', :template => "managed"
 
 dep 'gnupg.managed' do
   provides 'gpg'
@@ -27,14 +25,14 @@ dep 'NuKit.installer' do
   provides 'nush'
 end
 
-dep 'pdftohtml.managed' do
-	provides 'pdftohtml'
-end
+dep 'pdftohtml', :template => "managed"
 
-dep 'ragel.managed' do
-  provides 'ragel'
-end
+dep 'ragel', :tempate => "managed"
 
 dep 'mongodb.managed' do
   provides 'mongod'
 end
+
+dep 'luajit', :template => 'managed'
+
+dep 'pwgen', :template => 'managed'

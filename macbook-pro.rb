@@ -10,6 +10,7 @@ dep 'macbook-pro' do
   # requires 'mvim in path'
   requires 'ack.managed'
   requires 'lua.managed'
+  requires 'luajit'
   requires 'luarocks.managed'
   requires 'NuKit.installer'
 
@@ -62,10 +63,11 @@ dep 'macbook-pro' do
   requires 'AppZapper.app'
   requires 'Jumpcut.app'
   requires 'pygments'
-  requires 'mongoose.managed'
+  requires 'mongoose'
   requires 'gnupg.managed'
-  requires 'pdftohtml.managed'
-  requires 'ragel.managed'
+  requires 'pdftohtml'
+  requires 'ragel'
+  requires 'pwgen'
 
   # Projects
   requires 'lark'
