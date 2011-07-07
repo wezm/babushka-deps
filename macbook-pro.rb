@@ -13,6 +13,7 @@ dep 'macbook-pro' do
   requires 'luajit'
   requires 'luarocks.managed'
   requires 'NuKit.installer'
+  requires 'iTerm.app'
 
   # Database
   requires 'mysql starts via launchd'

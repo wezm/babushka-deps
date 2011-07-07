@@ -109,3 +109,7 @@ end
 dep 'xScope.app' do
   source 'http://iconfactory.com/assets/software/xscope/xScope_222.zip'
 end
+
+dep 'iTerm.app' do
+  source 'http://iterm2.googlecode.com/files/iTerm2_v1_0_0.zip'
+end
