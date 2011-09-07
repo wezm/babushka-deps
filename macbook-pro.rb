@@ -29,7 +29,6 @@ dep 'macbook-pro' do
 
   # Installers
   requires 'Growl.installer'
-  requires 'VirtualBox.installer'
 
   # Pref Panes
   requires 'Perian.prefpane'
