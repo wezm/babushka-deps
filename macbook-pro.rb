@@ -68,6 +68,7 @@ dep 'macbook-pro' do
   requires 'pdftohtml'
   requires 'ragel'
   requires 'pwgen'
+  requires 'tig'
 
   # Projects
   requires 'lark'

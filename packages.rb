@@ -36,3 +36,5 @@ end
 dep 'luajit', :template => 'managed'
 
 dep 'pwgen', :template => 'managed'
+
+dep 'tig', :template => 'managed'
