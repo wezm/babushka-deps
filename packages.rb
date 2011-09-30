@@ -34,7 +34,10 @@ dep 'mongodb.managed' do
 end
 
 dep 'luajit', :template => 'managed'
-
 dep 'pwgen', :template => 'managed'
-
 dep 'tig', :template => 'managed'
+dep 'stow', :template => 'managed'
+
+dep 'libyaml.managed' do
+  provides []
+end

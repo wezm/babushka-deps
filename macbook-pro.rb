@@ -1,6 +1,6 @@
 dep 'macbook-pro' do
   requires 'medium font smoothing'
-  requires 'spaces animation disabled'
+  # requires 'spaces animation disabled'
 
   # Shells & Interpreters
   requires 'oh-my-zsh.git'
@@ -26,6 +26,7 @@ dep 'macbook-pro' do
   requires 'geoip.managed'
   requires 'imagemagick.managed'
   requires 'freeimage.managed'
+  requires 'libyaml.managed'
 
   # Installers
   requires 'Growl.installer'
@@ -69,6 +70,7 @@ dep 'macbook-pro' do
   requires 'ragel'
   requires 'pwgen'
   requires 'tig'
+  requires 'stow'
 
   # Projects
   requires 'lark'
