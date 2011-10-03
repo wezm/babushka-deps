@@ -63,6 +63,7 @@ dep 'macbook-pro' do
   # Utilities
   requires 'AppZapper.app'
   requires 'Jumpcut.app'
+  requires 'Evom.app'
   requires 'pygments'
   requires 'mongoose'
   requires 'gnupg.managed'

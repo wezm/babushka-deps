@@ -113,3 +113,8 @@ end
 dep 'iTerm.app' do
   source 'http://iterm2.googlecode.com/files/iTerm2_v1_0_0.zip'
 end
+
+dep 'Evom.app' do
+  source 'http://files.thelittleappfactory.com/evom/Evom.zip'
+end
+
