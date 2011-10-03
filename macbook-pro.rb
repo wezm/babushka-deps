@@ -38,14 +38,11 @@ dep 'macbook-pro' do
   requires 'Google Chrome.app'
   requires 'Firefox.app'
   requires 'Dropbox.app'
-  requires 'Download Queue.app'
-  requires 'Reeder.app'
   requires 'Skype.app'
   requires 'CoRD.app'
   requires 'Fake.app'
   requires 'ForkLift.app'
   requires 'GarageSale.app'
-  requires 'FileShuttle.app'
 
   # Text & Notes
   requires 'Sublime Text 2.app'
