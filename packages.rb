@@ -41,3 +41,61 @@ dep 'stow', :template => 'managed'
 dep 'libyaml.managed' do
   provides []
 end
+
+dep 'fftw.managed' do
+  provides []
+end
+
+dep 'mpd', :template => 'managed'
+dep 'mpc', :template => 'managed'
+dep 'valgrind', :template => 'managed'
+
+# System deps courtesy of tsommer
+dep "libxml2-dev.managed" do
+  met? {
+    "/usr/include/libxml2".p.exist?
+  }
+end
+
+dep "libxslt-dev.managed" do
+  met? {
+    "/usr/include/libxslt".p.exist?
+  }
+end
+
+dep "libssl-dev.managed" do
+  met? {
+    "/usr/include/openssl".p.exist?
+  }
+end
+
+dep "libopenssl-ruby.managed" do
+  met? {
+    "/usr/share/doc/libopenssl-ruby/copyright".p.exist?
+  }
+end
+
+dep "libcurl4-openssl-dev.managed" do
+  met? {
+    "/usr/bin/curl-config".p.exist?
+  }
+end
+
+dep "libreadline-dev.managed" do
+  met? {
+    "/usr/include/readline".p.exist?
+  }  
+end
+
+dep "libfreeimage-dev.managed" do
+  met? {
+    "/usr/include/FreeImage.h".p.exist?
+  }
+end
+
+dep "libmagick9-dev.managed" do
+  met? {
+    "/usr/bin/Magick-config".p.exist?
+  }
+end
+
